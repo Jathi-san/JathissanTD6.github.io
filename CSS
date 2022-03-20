@@ -1,0 +1,61 @@
+h1 {
+    border-bottom:solid 1px;
+    color :gray;
+  margin-bottom:0;
+  }
+ul {
+    margin: 0;
+    width: 7em;
+    float:left;
+    list-style-type:none;
+    padding: 0;
+    margin-left: 2px;
+    margin-top: 1px;
+  }
+
+p {
+    display: flex;
+    color: grey;
+    border-left:solid 1px;
+    padding:1px 0 1px 5%;
+    text-align:justify;
+    margin-top:0;
+    
+  }
+li :hover{
+  background-color:RGB(255, 186, 184);
+  display:bock;
+}
+
+a{
+  text-decoration:none;
+ display: block;
+}
+
+
+.conteneur1 {
+    position: relative;
+  }
+.sous-menu1  {
+    position: absolute;
+    top: 0;
+    left: 7em;
+    display: none;
+}
+ .conteneur1 :hover .sous-menu1 {
+    display: block;
+  
+}
+.sous-menu2 {
+    position: absolute;
+    top: 0;
+    left: 7em;
+    display: none;
+}
+.conteneur2 :hover .sous-menu2{
+  display: block;
+}
+.conteneur2 {
+  position: relative;
+}
+
